@@ -1,4 +1,4 @@
-FROM nimbix/ubuntu-desktop:latest
+FROM python
 
 RUN apt-get update
 
