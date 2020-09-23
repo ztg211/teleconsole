@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  teleconsole:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: teleconsole_pi
+    container_name: teleconsole
+    restart: unless-stopped
